@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sketchy etchy</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "container">
+        <div class = "toy">
+            <div class = "top">
+                <div class = grid>
+                </div>
+            </div>
+            <div class = "bottom">
+                <div class = "panel">
+                    <div class = "divider" id = "dividerColor">
+                        <div class = "side1">🐈‍⬛</div>
+                        <div class = "middle">
+                            <div class = "rainbow">🌈</div>
+                            <div class = "knob" id = "colorKnob">
+                                <div class = "left">
+                                    <button data-mode = "black" class = "arrow" id = "leftArrow">◀︎</button>
+                                </div>
+                                <div class = "center">
+                                    <button data-mode = "rainbow" class = "arrow" id = "upArrow">▲</button>
+                                    <button data-mode = "random" class = "arrow" id = "downArrow">▼</button>
+    
+                                </div>
+                                <div class = "right">
+                                    <button data-mode = "funny" class = "arrow" id = "rightArrow">▶︎</button>
+                                </div>
+                            </div>
+                            <div class = "random">?</div>
+                        </div>
+                        <div class = "side">:D</div>
+                    </div>
+                    <div class = "divider">
+                        <div class = pixel-corners--wrapper >
+                            <button id = "resetButton" class = "pixel-corners">
+                                <span class = "front pixel-corners">
+                                    reset
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "divider right-divider">
+                        <div class = "dimension-display">
+                            <div id = "dimension"></div>
+                        </div>                     
+                        <div class = "knob" id = "dimensionKnob">  
+                            <input class = "slider" type = "range" id = "myRange" min = 16 max = 63 value = 16>
+                        </div>
+                        <div class = "text1">dimension</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src = "project.js"></script>
+</html>
+
+
+
